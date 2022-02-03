@@ -8,7 +8,6 @@ const array3 = array1.concat(array2);
 /////////////////////////////////
 
 
-
 //METODO FILL: primer parametro es lo que se va a cambiar
 const array4 = [1, 2, 3, 4,5,10,15,20,6];
 //reemplaza el valor desde una posicion inicial hasta una posicion final
@@ -61,6 +60,6 @@ const encontradoPorPosicion = array6.findIndex(function(value){
 //METODO FLAT: este metodo retorna un nuevo arreglo donde todos los valores se encuentran en el mismo nivel de iteracion
 const arreglo2 =[1,2,3,4,[5,6,7,8,[9,10,11]] ];
 const arreglo3 = arreglo2.flat(2);
-console.log(arreglo2[4][4][0])
+// console.log(arreglo2[4][4][0])
 //  console.log(arreglo3);
 //////////////////////////////////////////////////////
