@@ -23,3 +23,22 @@ title.classList.add("activo");
 title.classList.remove("activo");
 
 // console.log(title3.forEach(titulo => console.log(titulo)))
+const div = document.querySelector("#contenido");
+
+console.log(div);
+
+//CREAR ELEMENTOS DEL DOM
+const p = document.createElement("p");
+
+p.textContent = "lorem ipsum";
+
+console.log(p);
+
+//Anadir elementos al DIV
+div.append(p);
+
+//eliminar elementos del DOM
+p.remove();
+
+
+

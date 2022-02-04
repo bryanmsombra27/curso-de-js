@@ -1,7 +1,8 @@
 
 //METODO CONCAT: concatena dos o mas arreglos
-const array1 = ['a', 'b', 'c','g'];
-const array2 = ['d', 'e', 'f'];
+export  const array1 = ['a', 'b', 'c','g'];
+// export const array2 = ['d', 'e', 'f'];
+ const array2 = ['d', 'e', 'f'];
 
 const array3 = array1.concat(array2);
 // console.log(array3);

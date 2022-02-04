@@ -1,11 +1,11 @@
 //funcion declarada
-function  suma(a,b){
+ function  suma(a,b){
     return  a+ b;
 }
 ////////////////////////////////////////////////////////
 
 //expresion de funcion
-const expresionDeFuncion = function(a,b){
+ const expresionDeFuncion = function(a,b){
     return a- b
 }
 ////////////////////////////////////////////////////////
@@ -38,9 +38,9 @@ const funcionDeFlechaCortaSinParentesis = a => a;
 
 
 //antigua declaracion de la funcion IIFE usando estandar EcmaScript 5 e inferior
-(function(){
-
-})();
+// (function(){
+    
+// })();
 ////////////////////////////////////////////////////////
 
 
@@ -50,3 +50,6 @@ const funcionDeFlechaCortaSinParentesis = a => a;
 //  console.log(funcionDeFlecha(5,2) );
 // console.log(funcionDeFlechaCorta(10,2) );
 // console.log(funcionDeFlechaCortaSinParentesis(20) );
+
+//esta forma es utilizada para cuando se desea importar una unica funcion
+export default suma;

@@ -51,3 +51,9 @@ const {nombre,hobbies} = persona;
 //  console.log(persona["nombre"]);
 //  console.log(persona.nombre);
 // console.log(hobbies);
+
+//forma para exportar objetos,variables,arreglos, funciones
+export {
+    arreglo,
+    persona
+}
