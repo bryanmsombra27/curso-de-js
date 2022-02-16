@@ -12,3 +12,13 @@ i.fas{
     cursor: pointer;
 }
 
+/* .contenedor-grid{
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3,1fr);
+} */
+
+.img-perro{
+    height: 250px;
+}
